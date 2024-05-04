@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.fade-out {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s linear;
+}
